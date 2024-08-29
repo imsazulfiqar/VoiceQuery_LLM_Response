@@ -6,7 +6,7 @@ The objective was to create a pipeline that takes a voice query command, convert
 The pipeline was built using the following main components:
 1. Speech-to-Text: Implemented using the Faster-Whisper model to transcribe voice command into text.
 2. LLM for Response Generation: Implemented using Hugging Face's gpt2 model to generate responses.
-3. Text-to-Speech: Implemented using Microsoft's Azure TTS through the Google TTS library to convert the text back into speech.
+3. Text-to-Speech: Implemented using Google TTS library to convert the text back into speech.
 
 # Explanation
 
